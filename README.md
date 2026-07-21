@@ -1,6 +1,6 @@
 # Machine Learning
 
-A collection of machine learning and natural language processing projects built using Python and Jupyter Notebook.
+A collection of Machine Learning and Natural Language Processing (NLP) projects developed using Python, TensorFlow, and Jupyter Notebooks. This repository contains implementations of neural networks, recurrent neural networks, and sentiment analysis projects.
 
 ## Repository Structure
 
@@ -8,35 +8,41 @@ A collection of machine learning and natural language processing projects built 
 Machine-Learning/
 │
 ├── README.md
-├── NNmodel.ipynb
-├── RNN.ipynb
-├── Khalti.ipynb
-└── nit_delhi_reviews_simple-checkpoint copy.ipynb
+├── Digit Recognition Training(NN).ipynb
+├── User spending prediction(RNN).ipynb
+├── Khalti Sentiment Analysis.ipynb
+└── NITSentimentAnalysis.ipynb
 ```
 
 ## Projects
 
-### Neural Network (NN)
+### Handwritten Digit Recognition (Neural Network)
 
-A basic implementation of a feed-forward Neural Network covering:
+A handwritten digit recognition model trained on the MNIST dataset using TensorFlow and a Multilayer Perceptron (MLP).
 
-- Data preprocessing
-- Model training
-- Prediction
-- Performance evaluation
+**Features**
+- MNIST dataset preprocessing
+- Data normalization
+- Feed-forward neural network
+- Model training and evaluation
+- Real-time digit prediction
+
+**Technologies**
+- TensorFlow
+- NumPy
+- Matplotlib
 
 ---
 
-### Recurrent Neural Network (RNN)
+### User Spending Prediction (RNN)
 
-Implementation of an RNN model for sequential data.
+A Recurrent Neural Network (RNN) model for sequential user spending prediction.
 
-Topics covered:
-
-- Sequential learning
+**Topics Covered**
+- Sequential data processing
 - Hidden states
-- Time-step processing
-- Training and evaluation
+- Time-series learning
+- Model training and evaluation
 
 ---
 
@@ -44,35 +50,40 @@ Topics covered:
 
 Sentiment analysis of Google Play Store reviews for the Khalti application using Natural Language Processing.
 
-Features include:
-
-- Review scraping
-- Data cleaning
-- Sentiment analysis
-- Word clouds
-- Rating distribution
-- Positive vs Negative review analysis
+**Features**
+- Data preprocessing
+- Text cleaning
+- Sentiment classification
+- Word cloud generation
+- Rating distribution analysis
+- Positive vs. Negative review comparison
 - Data visualization
 
-Libraries used:
-
+**Libraries**
 - Pandas
-- Matplotlib
-- WordCloud
-- NLTK
 - NumPy
+- Matplotlib
+- NLTK
+- WordCloud
 
 ---
 
-### NIT Delhi Review Analysis
+### NIT Delhi Sentiment Analysis
 
-A notebook containing sentiment analysis and visualization on NIT Delhi reviews.
+Sentiment analysis and visualization of reviews related to NIT Delhi using Natural Language Processing techniques.
+
+**Features**
+- Review preprocessing
+- Sentiment analysis
+- Data visualization
+- Statistical insights
 
 ---
 
-## Technologies
+## Technologies Used
 
 - Python
+- TensorFlow
 - Jupyter Notebook
 - Pandas
 - NumPy
@@ -82,19 +93,21 @@ A notebook containing sentiment analysis and visualization on NIT Delhi reviews.
 
 ## Getting Started
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/AASHISH-KHANIYA/Machine-Learning.git
 ```
 
-Open any notebook using Jupyter Notebook or VS Code.
-
-Install dependencies
+### Install dependencies
 
 ```bash
-pip install pandas numpy matplotlib nltk wordcloud
+pip install tensorflow pandas numpy matplotlib nltk wordcloud
 ```
+
+### Run the notebooks
+
+Open any `.ipynb` file using Jupyter Notebook or Visual Studio Code.
 
 ## Author
 
@@ -103,5 +116,7 @@ pip install pandas numpy matplotlib nltk wordcloud
 - GitHub: https://github.com/AASHISH-KHANIYA
 
 ---
+
+## License
 
 This repository is intended for learning, experimentation, and educational purposes.
